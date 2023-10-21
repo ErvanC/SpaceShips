@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceTD</title>
+    <link rel="shortcut icon" type="x-icon" href="img/earth.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+    <script defer src="register.js"></script>
+</head>
+<body>
+<header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="img/earth.png" alt="logo">SpaceTD</a>
+        </div>         
+    </nav>
+</header>
+<div class="container">
+    <form id="form" action="/">
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password"name="password" type="password">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password2">Confirm password</label>
+            <input id="password2"name="password2" type="password">
+            <div class="error"></div> 
+        </div>
+        <button type="submit">Sign Up</button>
+            <p>Already have an account? </p>
+            <a href="login.html">Login</a>
+    </form>
+</div>
+</body>
+</html>
